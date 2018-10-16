@@ -6,7 +6,7 @@ Version:        2.1.5
 Release:        1%{?dist}
 Summary:        Universal Command Line Environment for aliyun
 
-License:        
+License:        Apache 2.0
 URL:            http://docs.aliyun.com/?spm=5176.1829009.1002.1.LxlLfS#/pub/aliyun-command-line-interface
 Source0:        https://files.pythonhosted.org/packages/f2/38/a44b5a5d7a33e258113eb88de865c36f14c4d034d17b57ade7dffadab919/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
