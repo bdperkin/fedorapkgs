@@ -35,7 +35,7 @@ https://readthedocs.org/projects/cryptography/badge/?version=latest
 
 %package -n     python3-%{pypi_name}
 Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-idna >= 2.1
 Requires:       python3-asn1crypto >= 0.21.0

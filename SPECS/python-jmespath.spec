@@ -35,7 +35,7 @@ https://codecov.io/github/jmespath/jmespath.py/coverage.svg?branch=develop
 
 %package -n     python3-%{pypi_name}
 Summary:        JSON Matching Expressions
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 JMESPath

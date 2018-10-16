@@ -24,7 +24,7 @@ Moderator, and many other Google APIs.
 
 %package -n     python3-%{pypi_name}
 Summary:        Google API Client Library for Python
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-httplib2 >= 0.9.2
 Requires:       python3-httplib2 < 1dev

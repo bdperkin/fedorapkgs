@@ -41,7 +41,7 @@ Settings\<User>\Application ...
 
 %package -n     python3-%{pypi_name}
 Summary:        A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 

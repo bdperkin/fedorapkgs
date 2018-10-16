@@ -35,7 +35,7 @@ https://coveralls.io/r/chardet/chardet
 
 %package -n     python3-%{pypi_name}
 Summary:        Universal encoding detector for Python 2 and 3
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-setuptools
 %description -n python3-%{pypi_name}

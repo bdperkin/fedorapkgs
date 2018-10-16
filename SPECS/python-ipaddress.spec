@@ -19,7 +19,7 @@ Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2
 
 %package -n     python3-%{pypi_name}
 Summary:        IPv4/IPv6 manipulation library
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2

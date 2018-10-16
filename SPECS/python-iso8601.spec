@@ -35,7 +35,7 @@ full featured ...
 
 %package -n     python3-%{pypi_name}
 Summary:        Simple module to parse ISO 8601 dates
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 Simple module to parse ISO 8601 dates

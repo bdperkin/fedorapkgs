@@ -37,7 +37,7 @@ https://travis-ci.org/tartley/colorama
 
 %package -n     python3-%{pypi_name}
 Summary:        Cross-platform colored terminal text
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 .. image:: https://img.shields.io/pypi/v/colorama.svg

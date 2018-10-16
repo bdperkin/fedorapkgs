@@ -23,7 +23,7 @@ https://github.com/wbond/asn1crypto#readme.
 
 %package -n     python3-%{pypi_name}
 Summary:        Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 Docs for this project are maintained at

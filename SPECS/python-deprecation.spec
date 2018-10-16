@@ -35,7 +35,7 @@ image:: https://travis-ci.org/briancurtin/deprecation.svg?branch=master
 
 %package -n     python3-%{pypi_name}
 Summary:        A library to handle automated deprecations
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-packaging
 %description -n python3-%{pypi_name}

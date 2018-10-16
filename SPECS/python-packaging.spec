@@ -48,7 +48,7 @@ Code of ...
 
 %package -n     python3-%{pypi_name}
 Summary:        Core utilities for Python packages
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-pyparsing >= 2.0.2
 Requires:       python3-six

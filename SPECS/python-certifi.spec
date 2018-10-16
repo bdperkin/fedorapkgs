@@ -37,7 +37,7 @@ install ...
 
 %package -n     python3-%{pypi_name}
 Summary:        Python package for providing Mozilla's CA Bundle
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 Certifi: Python SSL Certificates

@@ -31,7 +31,7 @@ list <https://groups.google.com/forum/#!forum/python-cffi>`_
 
 %package -n     python3-%{pypi_name}
 Summary:        Foreign Function Interface for Python calling C code
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-setuptools
 %description -n python3-%{pypi_name}

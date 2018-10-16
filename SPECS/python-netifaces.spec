@@ -39,7 +39,7 @@ https://travis-ci.org/al45tair/dmgbuild
 
 %package -n     python3-%{pypi_name}
 Summary:        Portable network interface information
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 netifaces 0.10.7

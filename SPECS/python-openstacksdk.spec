@@ -40,7 +40,7 @@ only about 10 of ...
 
 %package -n     python3-%{pypi_name}
 Summary:        An SDK for building applications to work with OpenStack
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 openstacksdk

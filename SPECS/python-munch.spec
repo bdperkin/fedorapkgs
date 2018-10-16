@@ -22,7 +22,7 @@ BuildRequires:  python-setuptools
 
 %package -n     python3-%{pypi_name}
 Summary:        A dot-accessible dictionary (a la JavaScript objects)
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
  
 Requires:       python3-six
 %description -n python3-%{pypi_name}

@@ -35,7 +35,7 @@ https://github.com/stefankoegl/python-json-pointer \* ...
 
 %package -n     python3-%{pypi_name}
 Summary:        Identify specific nodes in a JSON document (RFC 6901)
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 python-json-pointer

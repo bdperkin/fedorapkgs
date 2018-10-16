@@ -36,7 +36,7 @@ regardless of ...
 
 %package -n     python3-%{pypi_name}
 Summary:        Import exceptions from potentially bundled packages in requests
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 requestsexceptions

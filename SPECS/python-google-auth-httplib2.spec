@@ -37,7 +37,7 @@ auth``.
 
 %package -n     python3-%{pypi_name}
 Summary:        Google Authentication Library: httplib2 transport
-%{?python_provide:%python_provide python3-%{pypi_name}}
+%{?python_provide:%python_provide python%{python3_pkgversion}-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
 ``httplib2`` Transport for Google Auth
