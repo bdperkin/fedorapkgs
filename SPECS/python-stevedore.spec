@@ -6,7 +6,7 @@ Version:        1.29.0
 Release:        1%{?dist}
 Summary:        Manage dynamic plugins for Python applications
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://docs.openstack.org/stevedore/latest/
 Source0:        https://files.pythonhosted.org/packages/61/c9/1d10fc4ffd9657caea9e3f0428cad6e0eefed9dfea11435f97ab34c1927f/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

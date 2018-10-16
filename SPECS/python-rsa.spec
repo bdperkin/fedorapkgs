@@ -6,7 +6,7 @@ Version:        4.0
 Release:        1%{?dist}
 Summary:        Pure-Python RSA implementation
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://stuvel.eu/rsa
 Source0:        https://files.pythonhosted.org/packages/cb/d0/8f99b91432a60ca4b1cd478fd0bdf28c1901c58e3a9f14f4ba3dba86b57f/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

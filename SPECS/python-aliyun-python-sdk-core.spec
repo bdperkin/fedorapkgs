@@ -6,7 +6,7 @@ Version:        2.9.5
 Release:        1%{?dist}
 Summary:        The core module of Aliyun Python SDK
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://develop.aliyun.com/sdk/python
 Source0:        https://files.pythonhosted.org/packages/ca/89/834d50f84329123b3d77c68591569e126d427a8bcd6004edb426ab438c51/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

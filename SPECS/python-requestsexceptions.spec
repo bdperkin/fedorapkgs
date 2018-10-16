@@ -6,7 +6,7 @@ Version:        1.4.0
 Release:        1%{?dist}
 Summary:        Import exceptions from potentially bundled packages in requests
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://www.openstack.org/
 Source0:        https://files.pythonhosted.org/packages/82/ed/61b9652d3256503c99b0b8f145d9c8aa24c514caff6efc229989505937c1/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

@@ -6,7 +6,7 @@ Version:        2.19.1
 Release:        1%{?dist}
 Summary:        Python HTTP for Humans
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://python-requests.org
 Source0:        https://files.pythonhosted.org/packages/54/1f/782a5734931ddf2e1494e4cd615a51ff98e1879cbe9eecbdfeaf09aa75e9/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

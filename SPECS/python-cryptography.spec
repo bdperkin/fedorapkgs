@@ -6,7 +6,7 @@ Version:        2.3.1
 Release:        1%{?dist}
 Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers
 
-License:        ASL %(TODO: version)s and BSD
+License:        Apache 2.0 and BSD
 URL:            https://github.com/pyca/cryptography
 Source0:        https://files.pythonhosted.org/packages/22/21/233e38f74188db94e8451ef6385754a98f3cad9b59bedf3a8e8b14988be4/%{pypi_name}-%{version}.tar.gz
  

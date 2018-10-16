@@ -6,7 +6,7 @@ Version:        0.0.3
 Release:        1%{?dist}
 Summary:        Google Authentication Library: httplib2 transport
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
 Source0:        https://files.pythonhosted.org/packages/e7/32/ac7f30b742276b4911a1439c5291abab1b797ccfd30bc923c5ad67892b13/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

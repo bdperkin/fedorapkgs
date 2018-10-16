@@ -6,7 +6,7 @@ Version:        1.5.1
 Release:        1%{?dist}
 Summary:        Google Authentication Library
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://github.com/GoogleCloudPlatform/google-auth-library-python
 Source0:        https://files.pythonhosted.org/packages/7e/cd/dae5c39974b040741215ed346263152c93af21a22dc124c7ad451fbee417/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

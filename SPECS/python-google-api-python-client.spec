@@ -6,7 +6,7 @@ Version:        1.7.4
 Release:        1%{?dist}
 Summary:        Google API Client Library for Python
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://github.com/google/google-api-python-client/
 Source0:        https://files.pythonhosted.org/packages/4e/92/e4746e646585c8c359781c19984fe8b6b8794a6cfe382cd481329d5252ac/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

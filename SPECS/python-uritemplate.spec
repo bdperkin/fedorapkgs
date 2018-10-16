@@ -6,7 +6,7 @@ Version:        3.0.0
 Release:        1%{?dist}
 Summary:        URI templates
 
-License:        ASL %(TODO: version)s and BSD
+License:        Apache 2.0 and BSD
 URL:            https://uritemplate.readthedocs.org
 Source0:        https://files.pythonhosted.org/packages/cd/db/f7b98cdc3f81513fb25d3cbe2501d621882ee81150b745cdd1363278c10a/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

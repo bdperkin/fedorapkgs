@@ -6,7 +6,7 @@ Version:        3.11.0
 Release:        1%{?dist}
 Summary:        Authentication Library for OpenStack Identity
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://docs.openstack.org/keystoneauth/latest/
 Source0:        https://files.pythonhosted.org/packages/0e/4c/d6738d1025949329bdf63428c9ac50a30a9c017038e97aac741b85c7563b/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

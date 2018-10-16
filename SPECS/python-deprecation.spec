@@ -6,7 +6,7 @@ Version:        2.0.6
 Release:        1%{?dist}
 Summary:        A library to handle automated deprecations
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://deprecation.readthedocs.io/
 Source0:        https://files.pythonhosted.org/packages/cd/35/ab3995718c7b12d6a5e69f40540fe1df0b505cca5ee6af169d23ab9d0b00/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

@@ -6,7 +6,7 @@ Version:        4.3.0
 Release:        1%{?dist}
 Summary:        Python Build Reasonableness
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            https://docs.openstack.org/pbr/latest/
 Source0:        https://files.pythonhosted.org/packages/4c/22/91722b7d842a9e2e6ae41346f691fea95d9ac08678de7ac51c38754f9961/%{pypi_name}-%{version}.tar.gz
  

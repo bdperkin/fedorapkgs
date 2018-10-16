@@ -6,7 +6,7 @@ Version:        18.0
 Release:        1%{?dist}
 Summary:        Core utilities for Python packages
 
-License:        ASL %(TODO: version)s and BSD
+License:        Apache 2.0 and BSD
 URL:            https://github.com/pypa/packaging
 Source0:        https://files.pythonhosted.org/packages/cf/50/1f10d2626df0aa97ce6b62cf6ebe14f605f4e101234f7748b8da4138a8ed/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

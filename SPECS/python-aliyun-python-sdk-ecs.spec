@@ -6,7 +6,7 @@ Version:        4.12.0
 Release:        1%{?dist}
 Summary:        The ecs module of Aliyun Python sdk
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://develop.aliyun.com/sdk/python
 Source0:        https://files.pythonhosted.org/packages/27/ee/82551878e5f98883e79449c888cb2880d44de6469d7770a79c0bea524466/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch

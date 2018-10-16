@@ -6,7 +6,7 @@ Version:        0.17.2
 Release:        1%{?dist}
 Summary:        An SDK for building applications to work with OpenStack
 
-License:        ASL %(TODO: version)s
+License:        Apache 2.0
 URL:            http://developer.openstack.org/sdks/python/openstacksdk/
 Source0:        https://files.pythonhosted.org/packages/cd/2b/0d42cceb14204f90c567fa3244468bd2611ae2cad3117311bdba93b766a1/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
