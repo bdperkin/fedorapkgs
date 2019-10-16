@@ -8,8 +8,6 @@ URL:            https://github.com/jorgebucaran/fisher
 Source0:        https://github.com/jorgebucaran/fisher/archive/%{version}.tar.gz
 # https://github.com/jorgebucaran/fisher/commit/ae37295f813b07bd7b21c1378e477c6c3f6664d1
 
-BuildRequires:  fish >= 2.2
-
 Requires:       fish >= 2.2
 Requires:       curl >= 7.10.3
 Requires:       git >= 1.7.12
@@ -22,15 +20,14 @@ prompt and create repeatable configurations across different systems
 effortlessly.
 
 %prep
-%autosetup
+%setup -q
 
 %build
 
 %install
-find .. -ls
-mkdir -p %{buildroot}%{_sysconfdir}/fish/conf.d
+install -d %{buildroot}%{_sysconfdir}/fish/conf.d
 cp -a fisher.fish %{buildroot}%{_sysconfdir}/fish/conf.d/fisher.fish
-mkdir -p %{buildroot}%{_pkgdocdir}
+install -d %{buildroot}%{_pkgdocdir}
 cp -a README.md %{buildroot}%{_pkgdocdir}
 
 %clean
