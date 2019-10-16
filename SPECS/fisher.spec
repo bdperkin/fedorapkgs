@@ -27,6 +27,7 @@ effortlessly.
 %build
 
 %install
+find .. -ls
 mkdir -p %{buildroot}%{_sysconfdir}/fish/conf.d
 cp -a fisher.fish %{buildroot}%{_sysconfdir}/fish/conf.d/fisher.fish
 mkdir -p %{buildroot}%{_pkgdocdir}
