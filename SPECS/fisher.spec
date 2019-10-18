@@ -1,6 +1,6 @@
 Name:           fisher
 Version:        3.2.9
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A package manager for the fish shell
 License:        MIT
 BuildArch:      noarch
@@ -40,5 +40,8 @@ cp -a README.md %{buildroot}%{_pkgdocdir}
 %{_pkgdocdir}
 
 %changelog
+* Wed Oct 18 2019 Brandon Perkins <bperkins@redhat.com> - 3.2.9-2
+- Requires tar
+
 * Wed Oct 16 2019 Brandon Perkins <bperkins@redhat.com> - 3.2.9-1
 - Initial package
