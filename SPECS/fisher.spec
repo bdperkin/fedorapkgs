@@ -11,6 +11,7 @@ Source0:        https://github.com/jorgebucaran/fisher/archive/%{version}.tar.gz
 Requires:       fish >= 2.2
 Requires:       curl >= 7.10.3
 Requires:       git >= 1.7.12
+Requires:       tar >= 1.26
 
 %description
 Fisher is a package manager for the fish shell. It defines a common interface
